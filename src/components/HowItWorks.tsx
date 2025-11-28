@@ -39,10 +39,10 @@ export const HowItWorks = () => {
     ];
 
     const languages = [
-        { id: 'en', name: t('howItWorks.demo.languages.original'), flag: 'gb', video: '/videos/demo_en.mp4' },
-        { id: 'sv', name: t('howItWorks.demo.languages.swedish'), flag: 'se', video: '/videos/demo_sv.mp4' },
-        { id: 'de', name: t('howItWorks.demo.languages.german'), flag: 'de', video: '/videos/demo_de.mp4' },
-        { id: 'dk', name: t('howItWorks.demo.languages.danish'), flag: 'dk', video: '/videos/demo_dk.mp4' }
+        { id: 'en', name: t('howItWorks.demo.languages.original'), flag: 'gb', video: `${import.meta.env.BASE_URL}videos/demo_en.mp4` },
+        { id: 'sv', name: t('howItWorks.demo.languages.swedish'), flag: 'se', video: `${import.meta.env.BASE_URL}videos/demo_sv.mp4` },
+        { id: 'de', name: t('howItWorks.demo.languages.german'), flag: 'de', video: `${import.meta.env.BASE_URL}videos/demo_de.mp4` },
+        { id: 'dk', name: t('howItWorks.demo.languages.danish'), flag: 'dk', video: `${import.meta.env.BASE_URL}videos/demo_dk.mp4` }
     ] as const;
 
     const handleLanguageChange = (langId: typeof currentLanguage) => {
