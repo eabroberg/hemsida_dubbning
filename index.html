@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DubbAI - Globalisera ditt videoinnehåll med AI</title>
+  <meta name="description"
+    content="Professionell AI-dubbning och översättning för företag. Bevara röstkaraktär och timing på över 31 språk. Perfekt för EdTech och företagsutbildning." />
+  <meta name="keywords"
+    content="AI dubbning, videoöversättning, läppsynk, PowerPoint översättning, EdTech, e-learning" />
+  <meta name="theme-color" content="#030305" />
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem('theme');
+      const theme = savedTheme === 'light' ? 'light' : 'dark';
+      document.documentElement.classList.add(theme);
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', theme === 'dark' ? '#030305' : '#FFFFFF');
+    })();
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
