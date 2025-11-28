@@ -157,7 +157,6 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
                             <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
                                 <li><a href="#about" className="hover:text-primary">{t('footer.links.about')}</a></li>
                                 <li><a href="#contact" className="hover:text-primary">{t('footer.links.contact')}</a></li>
-                                <li><a href="#" className="hover:text-primary">{t('footer.links.career')}</a></li>
                             </ul>
                         </div>
                         <div>
